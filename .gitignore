@@ -1,0 +1,5 @@
+ebin/
+priv/
+core*
+erl_crash.dump
+*~

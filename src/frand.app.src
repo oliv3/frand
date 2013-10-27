@@ -1,0 +1,14 @@
+%% -*- erlang -*-
+
+{application, frand,
+ [
+  {description, "Fuzzing PRNG"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, {frand_app, []}},
+  {env, []}
+ ]}.
