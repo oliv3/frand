@@ -25,8 +25,7 @@ main(int argc, char **argv)
     if (max <= 0) goto error;
   }
 
-  fprintf(stderr, "Seed: %lu Number: %d Max: %d\r\n", seed, number, max);
-
+  /* fprintf(stderr, "Seed: %lu Number: %d Max: %d\r\n", seed, number, max); */
   for (m = 0; m < max; m++) {
     frand_seed(seed+m);
     printf("{%lu,[", seed+m);
