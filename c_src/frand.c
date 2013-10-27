@@ -30,12 +30,13 @@ frand_nif_srand48(ErlNifEnv* env, int argc, const ERL_NIF_TERM argv[])
 }
 
 
+/* NIF API */
 static ErlNifFunc nif_funcs[] = {
   {"lrand48", 0, frand_nif_lrand48},
   {"srand48", 1, frand_nif_srand48}
 };
 
-/* NIF API */
+
 static int
 frand_upgrade(ErlNifEnv* env, void** priv_data, void** old_priv_data, ERL_NIF_TERM load_info)
 {

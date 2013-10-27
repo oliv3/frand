@@ -3,3 +3,4 @@ priv/
 core*
 erl_crash.dump
 *~
+*.o

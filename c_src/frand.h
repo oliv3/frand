@@ -1,6 +1,8 @@
 #ifndef __FRAND_H
 #define __FRAND_H
 
+#include <stdlib.h>
+
 static struct drand48_data buffer;
 
 
